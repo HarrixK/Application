@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".Information">
+
+    <ImageView
+        android:id="@+id/IV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:src="@drawable/download"
+        android:background="@drawable/tv_background"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lahore's origins reach into antiquity. The city has been controlled by numerous empires throughout the course of its history, including the Hindu Shahis, Ghaznavids, Ghurids, and Delhi Sultanate by the medieval era. Lahore reached the height of its splendour under the Mughal Empire between the late 16th and early 18th century, and served as its capital city for a number of years. The city was captured by the forces of the Afsharid ruler Nader Shah in 1739, and fell into a period of decay while being contested between the Afghans and the Sikhs. Lahore eventually became capital of the Sikh Empire in the early 19th century, and regained much of its lost grandeur.[16] Lahore was then annexed to the British Empire, and made capital of British Punjab.[17] Lahore was central to the independence movements of both India and Pakistan, with the city being the site of both the declaration of Indian Independence, and the resolution calling for the establishment of Pakistan. Lahore experienced some of the worst rioting during the Partition period preceding Pakistan's independence.[18] Following the success of the Pakistan Movement and subsequent independence in 1947, Lahore was declared capital of Pakistan's Punjab province."
+        android:layout_below="@id/IV1"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:textSize="15dp"/>
+
+</RelativeLayout>
